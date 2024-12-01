@@ -1,0 +1,61 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Font */
+body {
+    font-family: "roboto";
+
+    /* Footer always at the bottom of the page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* End. footeralways at the bottom of the page */
+
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+.hlight:hover {
+    background-color: rgb(218, 210, 225);
+
+}
+
+.hero-image {
+    background-image: url("images/transparency\ 4\ download\ \(1\).png");
+    /* background-image: url("images/360_F_726322600_f7QH5nIbisqzi4ku1QQ4Qm2eiz8aRO13.jpg"); */
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: DodgerBlue; */
+}
+
+.flex-container>div {
+    /* background-color: #f1f1f1; */
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: left;
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+
+
+#gradColor1 {
+    height: 100px;
+    background-color: rgb(155, 5, 255);
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(1deg, rgb(123, 49, 148), rgb(140, 177, 235));
+}

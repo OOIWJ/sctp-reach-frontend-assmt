@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Organic Green Tea",
+      "author": "John",
+      "price": 12.99,
+      "image": "https://picsum.photos/id/225/300/200",
+      "description": "Premium organic green tea leaves, rich in antioxidants and offering a smooth, refreshing taste."
+    },
+    {
+      "id": 2,
+      "title": "Stainless Steel Water Bottle",
+      "author": "Micheal",
+      "price": 24.99,
+      "image": "https://picsum.photos/id/28/300/200",
+      "description": "Eco-friendly, double-walled insulated water bottle. Keeps drinks cold for 24 hours or hot for 12 hours."
+    },
+    {
+      "id": 3,
+      "title": "Bamboo Cutting Board",
+      "author": "Tom",
+      "price": 19.99,
+      "image": "https://picsum.photos/id/292/300/200",
+      "description": "Durable and sustainable bamboo cutting board with juice groove. Perfect for meal prep and serving."
+    },
+    {
+      "id": 4,
+      "title": "Reusable Produce Bags",
+      "author": "Lisa",
+      "price": 15.99,
+      "image": "https://picsum.photos/id/292/300/200",
+      "description": "Set of 5 mesh produce bags. Washable and perfect for grocery shopping and storing fruits and vegetables."
+    },
+    {
+      "id": 5,
+      "title": "Solar-Powered Charger",
+      "author": "James",
+      "price": 39.99,
+      "image": "https://picsum.photos/id/180/300/200",
+      "description": "Portable solar charger with dual USB ports. Ideal for outdoor activities and emergency preparedness."
+    }
+  ]
