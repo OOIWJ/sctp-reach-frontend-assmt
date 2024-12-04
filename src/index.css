@@ -3,8 +3,12 @@
   object-fit: cover;
 }
 
-/* Font */
+.App {
+  min-height: 100vh;
+}
+
 body {
+  background-color: rgb(237, 230, 238);
   font-family: "roboto";
 
   /* Footer always at the bottom of the page */
@@ -21,7 +25,8 @@ footer {
 }
 
 .hlight:hover {
-  background-color: rgb(218, 210, 225);
+  /* background-color: rgb(218, 210, 225); */
+  background-color: rgb(237, 230, 238);
 
 }
 

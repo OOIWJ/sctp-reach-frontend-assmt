@@ -1,12 +1,13 @@
 .card-img-top {
     height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
 /* Font */
 body {
     font-family: "roboto";
-
+    background-color:rgb(237, 230, 238);
     /* Footer always at the bottom of the page */
     min-height: 100vh;
     display: flex;

@@ -2,17 +2,17 @@ import { atom, useAtom } from 'jotai';
 import Immutable from 'seamless-immutable';
 
 // Define the initial state of the cart. We put in one piece of test data
-const initialCart = [
-{
-    "id": 1,
-    "title": "abc",
-    "author": "cde",
-    "quantity": 10,
-    "price": 12.99,
-    "imageUrl": "https://picsum.photos/id/225/300/200",
-    "description": "Premium organic green tea leaves, rich in antioxidants and offering a smooth, refreshing taste."
-  },
-];
+const initialCart = Immutable([
+// {
+//     "id": 1,
+//     "title": "Testing",
+//     "author": "cde",
+//     "quantity": 10,
+//     "price": 12.99,
+//     "imageUrl": "https://picsum.photos/id/225/300/200",
+//     "description": "Premium organic green tea leaves, rich in antioxidants and offering a smooth, refreshing taste."
+//   },
+]);
 
 // Create an atom for the cart
 export const cartAtom = atom(initialCart);
@@ -62,11 +62,16 @@ export const useCart = () => {
     });
   }
 
+  const setCartContent = (cartItems) => {
+    setCart(Immutable(cartItems));
+  }
+
   return {
     cart,
     getCartTotal,
     addToCart,
     modifyQuantity,
-    removeFromCart
+    removeFromCart,
+    setCartContent
   };
 };
